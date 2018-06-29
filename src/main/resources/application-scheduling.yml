@@ -1,0 +1,13 @@
+cron:
+  general:
+      lock-inspiration-interval: 50 #锁续命时间
+      lock-time: 60 #锁持有时间
+  demoRating:
+      name: demoRating
+      schedule-time-unit: 0
+      task-start-rule: 0
+      task-control-time-duration: 5
+      load-backtrace-time-duration: 1
+      scan-failed-jobs-interval-in-seconds: 30
+      cron-expression: 0 */5 * * * ?
+      description: 测试任务
